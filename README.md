@@ -6,11 +6,12 @@ Turns out my Realty Site of Choice (the Zpecific Zite shall not be named) expose
 
 ## Installation
 
-Requires Ruby 2.3 or later.
+Requires Ruby 2.3 or later and [ImageMagick](https://www.imagemagick.org/script/index.php) (`brew install imagemagick@6` on macOS).
 
 ```
 git clone https://github.com/megantiu/realty-scraper.git
 cd realty-scraper
+gem install rmagick httparty
 ```
 
 ## Setup
